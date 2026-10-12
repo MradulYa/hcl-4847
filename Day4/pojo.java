@@ -31,5 +31,4 @@ class Student {
             System.out.print(l);
             Collections.sort(l, (Student s1, Student s2) -> Integer.compare(s1.age, s2.age));
             System.out.println(l);
-        }
-    }
+    }}
