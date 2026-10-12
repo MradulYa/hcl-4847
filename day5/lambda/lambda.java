@@ -1,4 +1,4 @@
-package lambda;
+package day5.lambda;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
