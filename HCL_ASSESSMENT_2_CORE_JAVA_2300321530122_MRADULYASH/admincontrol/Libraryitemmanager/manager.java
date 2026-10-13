@@ -1,8 +1,8 @@
-package Libraryitemmanager;
+package HCL_ASSESSMENT_2_CORE_JAVA_2300321530122_MRADULYASH.admincontrol.Libraryitemmanager;
 
-import Libraryitems.books;
-import Libraryitems.dvd;
-import Libraryitems.magazine;
+import HCL_ASSESSMENT_2_CORE_JAVA_2300321530122_MRADULYASH.admincontrol.Libraryitems.books;
+import HCL_ASSESSMENT_2_CORE_JAVA_2300321530122_MRADULYASH.admincontrol.Libraryitems.dvd;
+import HCL_ASSESSMENT_2_CORE_JAVA_2300321530122_MRADULYASH.admincontrol.Libraryitems.magazine;
 
 import java.util.ArrayList;
 import java.util.HashMap;
