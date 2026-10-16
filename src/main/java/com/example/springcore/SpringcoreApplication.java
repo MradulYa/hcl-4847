@@ -11,8 +11,9 @@ public class SpringcoreApplication {
         ApplicationContext ctx=new AnnotationConfigApplicationContext(AppConfig.class);
         Employee emp=ctx.getBean(Employee.class);
         Employee emp2=ctx.getBean(Employee.class);
-
         emp.display();
+        System.out.println(emp.hashCode());
+        System.out.println(emp2.hashCode());
     }
 
 }
