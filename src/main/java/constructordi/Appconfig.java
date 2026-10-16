@@ -10,7 +10,7 @@ public class Appconfig {
     public address Address(){
         return new address();
     }
-@Bean
+    @Bean
     public Employee employee(address Address){
         return new Employee(Address);
     }
