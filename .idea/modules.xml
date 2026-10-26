@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/hrmsdatabase.iml" filepath="$PROJECT_DIR$/.idea/hrmsdatabase.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Springcore.iml" filepath="$PROJECT_DIR$/Springcore.iml" />
+>>>>>>> a4c9e245a85a4587f7bda2abb5f5344903c313fd
     </modules>
   </component>
 </project>
