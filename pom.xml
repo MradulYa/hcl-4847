@@ -5,6 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+
         <version>4.1.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
@@ -13,6 +14,16 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>hrmsdatabse</name>
     <description>hrmsdatabse</description>
+=======
+        <version>4.1.1</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.example</groupId>
+    <artifactId>Springcore</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Springcore</name>
+    <description>Springcore</description>
+>>>>>>> 2ac1c7049b9651c7d217d4136bec84be45c9abce
     <url/>
     <licenses>
         <license/>
@@ -31,6 +42,7 @@
     </properties>
     <dependencies>
         <dependency>
+<<<<<<< HEAD
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-h2console</artifactId>
         </dependency>
@@ -41,10 +53,21 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
+=======
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.6</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+>>>>>>> 2ac1c7049b9651c7d217d4136bec84be45c9abce
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
@@ -79,6 +102,11 @@
         </dependency>
 
 
+
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+2ac1c7049b9651c7d217d4136bec84be45c9abce
     </dependencies>
 
     <build>
